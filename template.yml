@@ -208,7 +208,7 @@ Resources:
      EvaluationPeriods: 1
      Statistic: Average
      Threshold: 70
-     AlarmDescription: Go in Alarm is memory is higher than 70% for 60 seconds
+     AlarmDescription: Go to Alarm is memory is higher than 70% for 60 seconds
      Period: 60
      AlarmActions:
      - Ref: ScaleUpPolicy
